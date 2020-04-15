@@ -1,0 +1,42 @@
+@font-face{
+  font-family: "Gilroy";
+  font-weight: bold;
+  font-style: bold;
+  src: url('../../assets//fonts/Gilroy-ExtraBold.ttf')
+}
+
+.no-margin {
+  margin: 0;
+}
+.no-margin-bottom {
+  margin-bottom: 0;
+}
+.no-margin-top {
+  margin-top: 0;
+}
+.checkbox-container {
+  list-style-image: url('../src/assets/images/check_circle-24px.svg');
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.checkbox-container li{
+  margin-top: 25px;
+}
+.checkbox-container li svg{
+  vertical-align: middle;
+  margin-right: 20px;
+}
+.checkbox-container li:nth-child(even) svg{
+  margin-right: 10px;
+}
+.margin-double{
+  margin-top: 30px
+}
+.checkbox svg path{
+  fill: #53C1DE
+}
+svg #upload path{
+  fill: #000
+}
